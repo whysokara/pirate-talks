@@ -1,15 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&display=swap");
 
 :root {
-  --primary-color: #f2c94c;
+  --primary-color: #000;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: white;
 }
 body {
   margin-top: 15%;
+  background-image: url("pirate.jpeg");
+  object-fit: cover;
 }
 .main {
   display: flex;
@@ -47,6 +50,7 @@ body {
   border-bottom: 1px solid var(--primary-color);
   padding: 10px;
   text-align: center;
+  color: var(--primary-color);
 }
 .input:focus {
   outline: none;
@@ -59,7 +63,9 @@ body {
   padding: 5px 10px;
   border-radius: 3px;
 }
-
+/* #txt-output {
+  color: var(--primary-color);
+} */
 .footer {
   width: 100%;
   background-color: var(--primary-color);
