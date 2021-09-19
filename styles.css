@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&display=swap");
+
+:root {
+  --primary-color: #f2c94c;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin-top: 15%;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+
+.wrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.nav {
+  background-color: var(--primary-color);
+  width: 100%;
+  text-align: center;
+  padding: 25px 40px;
+  font-size: 20px;
+  border-radius: 0 100px 0 100px;
+}
+
+.input {
+  width: 60%;
+  border: none;
+  border-bottom: 1px solid var(--primary-color);
+  padding: 10px;
+  text-align: center;
+}
+.input:focus {
+  outline: none;
+}
+
+#btn-translate {
+  margin: 25px 0;
+  background-color: var(--primary-color);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.footer {
+  width: 100%;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 100px 0 100px 0;
+}
